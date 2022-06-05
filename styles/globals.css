@@ -1,0 +1,21 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #212121;
+}
+
+/* 
+    c1: #0A91AB;
+    c2: #26282B
+    c3: #5F85DB
+    c4: #90B8F8
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+}
