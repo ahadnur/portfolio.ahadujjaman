@@ -25,5 +25,7 @@ module.exports = {
         main: "#14FFEC"
     },
   },
-  plugins: [],
+  plugins: [
+  ],
+  
 }
