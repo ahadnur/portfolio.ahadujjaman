@@ -24,7 +24,7 @@ export default function Home() {
       </Head>
 
         <Nav />
-      <div className=" bg-gray-900 ">
+      <div className="">
           <div className="container">
             <Hero />
 
