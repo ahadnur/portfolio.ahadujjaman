@@ -18,12 +18,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Portfolio | Ahadujjamn Nur</title>
-        <meta name="description" content="Ahadujjaman Nur's Portfolio" />
+        <title>Ahadujjamn Nur</title>
+        <meta name="description" content="Ahadujjaman Nur | Freelance Web developer | Programming Coach" />
         <link rel="icon" href="/favicon.png" />
       </Head>
 
-        <Nav />
+      <Nav />
       <div className="">
           <div className="container">
             <Hero />
