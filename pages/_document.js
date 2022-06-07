@@ -1,18 +1,16 @@
 // pages/_document.js
-import { Html, Head, Main, NextScript } from 'next/document'
-import Script from 'next/script'
+import { Html, Head, Main } from 'next/document'
 
 export default function Document() {
   return (
-    <Html className="">
+    <Html>
       <Head>
         {/* Change your Icon */}
         <link rel="icon" href="/img/logo.svg" />
         
       </Head>
-      <body className="">
+      <body>
         <Main />
-        <NextScript />
       </body>
     </Html>
   )

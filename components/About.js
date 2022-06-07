@@ -10,7 +10,7 @@ const About = () => {
 
             <div className="mb-10 md:mb-0">
                 <p className="text-white/60 mb-3">Hello! My name is Ahadujjaman Nur and I enjoy creating things that live on the internet. My interest in web development started back in 2016 when I was learning PYTHON. After all these years that interest helped me learn HTML, CSS, JAVASCRIPT, PYTHON a lot!</p>
-                <p className="text-white/60 mb-3">Past few years I'm working as a Freelance Web Developer and Programming Coach in <span className="text-main"><Link href="https://www.fiverr.com/ahadnur44?public_mode=true">Fiverr</Link></span>, <span className="text-main"><Link href="https://www.upwork.com/freelancers/~01ba501685672fd7a0?viewMode=1">Upwork</Link></span></p>
+                <p className="text-white/60 mb-3">Past few years I&apos;m working as a Freelance Web Developer and Programming Coach in <span className="text-main"><Link href="https://www.fiverr.com/ahadnur44?public_mode=true">Fiverr</Link></span>, <span className="text-main"><Link href="https://www.upwork.com/freelancers/~01ba501685672fd7a0?viewMode=1">Upwork</Link></span></p>
                 <p className="text-white/60 mb-3">My main focus these days is building User Friendly, professional products and digital services for a variety of clients.</p>
             </div>
             <div className="relative h-[300px] w-[300px]">
