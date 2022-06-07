@@ -7,7 +7,7 @@ export default function Document() {
     <Html className="">
       <Head>
         {/* Change your Icon */}
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/img/logo.svg" />
         
       </Head>
       <body className="">
