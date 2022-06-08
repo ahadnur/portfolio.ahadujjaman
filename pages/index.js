@@ -26,7 +26,7 @@ export default function Home() {
 
         <Nav />
         <div className="relative">
-            {/* Left bar on desktop*/}
+            {/* Right bar on desktop*/}
             <div className="hidden lg:block md:fixed bottom-10 right-10">
                <div className="socialIcons">
                 <ul className="flex justify-center items-center flex-col space-y-5">
@@ -65,18 +65,13 @@ export default function Home() {
                 </ul>
             </div>
             </div>
-            {/* End of left bar */}
-
-            {/* Right Bar on desktop */}
-            <div>
-
-            </div>
             {/* End of right bar */}
 
             {/* Container */}
             <div className="container">
                 <Hero />
                 <About />
+                <Service />
             </div>
             {/* End of container */}
 
