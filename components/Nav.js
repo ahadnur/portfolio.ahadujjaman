@@ -41,23 +41,18 @@ const Nav = () => {
                                 </Link>
                             </li>
                             <li className="cursor-pointer hover:text-main" onClick={closeMenu}>
-                                <Link href="#services">
-                                    <a className="flex flex-col items-center"><span className="text-main">02.</span> <span>Services</span></a>
-                                </Link>
-                            </li>
-                            <li className="cursor-pointer hover:text-main" onClick={closeMenu}>
                                 <Link href="#works">
-                                    <a className="flex flex-col items-center"><span className="text-main">03.</span>  <span>Works</span></a>
+                                    <a className="flex flex-col items-center"><span className="text-main">02.</span>  <span>Works</span></a>
                                 </Link>
                             </li>
                             <li className="cursor-pointer hover:text-main" onClick={closeMenu}>
                                 <Link href="#testimonials">
-                                    <a className="flex flex-col items-center"><span className="text-main">04.</span> <span>Testimonials</span></a>
+                                    <a className="flex flex-col items-center"><span className="text-main">03.</span> <span>Testimonials</span></a>
                                 </Link>
                             </li>
                             <li className="cursor-pointer hover:text-main" onClick={closeMenu}>
                                 <Link href="#contact">
-                                    <a className="flex flex-col items-center"><span className="text-main">05.</span> <span>Contact</span></a>
+                                    <a className="flex flex-col items-center"><span className="text-main">04.</span> <span>Contact</span></a>
                                 </Link>
                             </li>
                             <li className="px-5 py-2 border-[1px] border-main text-main rounded-md hover:bg-main/20 transition-all duration-300 cursor-pointer" onClick={closeMenu}>
