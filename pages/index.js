@@ -9,7 +9,7 @@ import { FaTelegramPlane } from 'react-icons/fa'
 import Nav from '../components/Nav'
 import Hero from '../components/Hero'
 import About from '../components/About'
-import Service from '../components/Service'
+import Works from '../components/Works'
 import Testimonial from '../components/Testimonial'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
@@ -71,7 +71,7 @@ export default function Home() {
             <div className="container">
                 <Hero />
                 <About />
-                <Service />
+                <Works />
             </div>
             {/* End of container */}
 

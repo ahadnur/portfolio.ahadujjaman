@@ -15,7 +15,7 @@ const Nav = () => {
   return (
       <>
         <div>
-            <div className="px-5 md:px-10 py-3 text-gray-200 drop-shadow-md shadow-[#212121]/20 flex justify-between items-center fixed top-0 left-0 w-full z-20 bg-[#212121]/90">
+            <div className="px-5 md:px-10 py-3 text-gray-200 drop-shadow-md shadow-[#212121]/20 flex justify-between items-center fixed top-0 left-0 w-full z-50 bg-[#212121]/90">
                 <div className="logo cursor-pointer">
                     <Link href="/">
                         <a><Image src="/img/logo.svg" alt="Portfolio Logo" height="48" width="48"/></a>
@@ -31,7 +31,7 @@ const Nav = () => {
                     }
                 </div>
             </div>
-            <div className={isOpen ? "right-0 bg-gray w-[400px] fixed bottom-0 h-[calc(100vh-77.5px)] grid place-items-center z-10 transition-all duration-3000" : "bg-gray w-[400px] fixed bottom-0 -right-[400px] h-[calc(100vh-77.5px)] grid place-items-center z-10 transition-all duration-3000"}>
+            <div className={isOpen ? "right-0 bg-gray w-[400px] fixed bottom-0 h-[calc(100vh-77.5px)] grid place-items-center z-50 transition-all duration-3000" : "bg-gray w-[400px] fixed bottom-0 -right-[400px] h-[calc(100vh-77.5px)] grid place-items-center z-50 transition-all duration-3000"}>
                 <div className="relative">
                     <div className="menu font-mono w-[400px]">
                         <ul className="flex justify-between flex-col items-center text-white space-y-10">
