@@ -31,10 +31,10 @@ const Nav = () => {
                     }
                 </div>
             </div>
-            <div className={isOpen ? "right-0 bg-gray w-[400px] fixed bottom-0 h-[calc(100vh-77.5px)] grid place-items-center z-50 transition-all duration-3000" : "bg-gray w-[400px] fixed bottom-0 -right-[400px] h-[calc(100vh-77.5px)] grid place-items-center z-50 transition-all duration-3000"}>
+            <div className={isOpen ? "top-24 py-10 bg-gray w-[90%] md:w-[80%] absolute left-1/2 -translate-x-1/2 h-auto md:h-[300px] grid place-items-center z-50 transition-all duration-3000 rounded-md shadow-2xl" : "bg-gray w-full fixed left-1/2 -translate-x-1/2 -top-[800px] h-[300px] grid place-items-center z-50 transition-all duration-3000"}>
                 <div className="relative">
                     <div className="menu font-mono w-[400px]">
-                        <ul className="flex justify-between flex-col items-center text-white space-y-10">
+                        <ul className="flex justify-center flex-col md:flex-row items-center text-white space-y-10 md:space-x-10 md:space-y-0">
                             <li className="cursor-pointer hover:text-main" onClick={closeMenu}>
                                 <Link href="#about">
                                     <a className="flex flex-col items-center"> <span className="text-main">01.</span> <span>About</span></a>
