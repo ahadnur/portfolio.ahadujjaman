@@ -27,7 +27,7 @@ const Works = () => {
                     <div className="tags mt-5">
                         <ul className="flex justify-start sm:justify-end flex-nowrap space-x-2">
                             {featured_projects[0].tags.map((tag, index) => (
-                                <li className="text-main font-light font-mono" key={index}>{tag}</li>
+                                <li className="text-main font-light text-xs font-mono" key={index}>{tag}</li>
                             ))}
                         </ul>
                     </div>
@@ -49,7 +49,7 @@ const Works = () => {
                     <div className="tags mt-5">
                         <ul className="flex justify-start flex-nowrap space-x-2">
                             {featured_projects[1].tags.map((tag, index) => (
-                                <li className="text-main font-light font-mono" key={index}>{tag}</li>
+                                <li className="text-main font-light font-mono text-xs" key={index}>{tag}</li>
                             ))}
                         </ul>
                     </div>
@@ -73,11 +73,11 @@ const Works = () => {
                             <a target="_blank">{featured_projects[2].title}</a>
                         </Link>
                     </h2>
-                    <p className="p-5 bg-gray rounded-sm text-white/80">{featured_projects[0].description}</p>
+                    <p className="p-5 bg-gray rounded-sm text-white/80">{featured_projects[2].description}</p>
                     <div className="tags mt-5">
                         <ul className="flex justify-start sm:justify-end flex-nowrap space-x-2">
                             {featured_projects[2].tags.map((tag, index) => (
-                                <li className="text-main font-light font-mono" key={index}>{tag}</li>
+                                <li className="text-main font-light text-xs font-mono" key={index}>{tag}</li>
                             ))}
                         </ul>
                     </div>
