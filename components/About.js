@@ -14,7 +14,7 @@ const About = () => {
                 <p className="text-white/60 mb-3">Hello! My name is Ahadujjaman Nur and I enjoy creating things that live on the internet. My interest in web development started back in 2016 when I was learning PYTHON. After all these years that interest helped me learn HTML, CSS, JAVASCRIPT a lot!</p>
                 <p className="text-white/60 mb-3">Past few years I&apos;m working as a Freelance Web Developer and Programming Coach in <span className="text-main"><Link href="https://www.fiverr.com/ahadnur44?public_mode=true">Fiverr</Link></span>, <span className="text-main"><Link href="https://www.upwork.com/freelancers/~01ba501685672fd7a0?viewMode=1">Upwork</Link></span></p>
                 <p className="text-white/60 mb-3">My main focus these days is building User Friendly, professional products and digital services for a variety of clients.</p>
-                <div className="mb-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2">
+                <div className="mb-10 grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-2">
                     <div className="flex flex-col justify-start items-start">
                         <h3 className="text-xl font-extralight text-main mb-2">Languages</h3>
                         <ul>

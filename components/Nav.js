@@ -31,7 +31,7 @@ const Nav = () => {
                     }
                 </div>
             </div>
-            <div className={isOpen ? "top-24 py-10 bg-gray w-[90%] md:w-[80%] absolute left-1/2 -translate-x-1/2 h-auto md:h-[300px] grid place-items-center z-50 transition-all duration-3000 rounded-md shadow-2xl" : "bg-gray w-full fixed left-1/2 -translate-x-1/2 -top-[800px] h-[300px] grid place-items-center z-50 transition-all duration-3000"}>
+            <div className={isOpen ? "top-24 py-10 bg-gray w-[90%] md:w-[80%] fixed left-1/2 -translate-x-1/2 h-auto md:h-[300px] grid place-items-center z-50 transition-all duration-3000 rounded-md shadow-2xl" : "bg-gray w-full fixed left-1/2 -translate-x-1/2 -top-[800px] h-[300px] grid place-items-center z-50 transition-all duration-3000"}>
                 <div className="relative">
                     <div className="menu font-mono w-[400px]">
                         <ul className="flex justify-center flex-col md:flex-row items-center text-white space-y-10 md:space-x-10 md:space-y-0">
