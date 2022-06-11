@@ -14,7 +14,7 @@ import Nav from '../components/Nav'
 
 function archive() {
   return (
-    <div className="relative">
+    <div className="relative mb-24">
         <Nav />
         {/* Right bar on desktop*/}
         <div className="hidden lg:block md:fixed bottom-10 right-10">
@@ -66,19 +66,19 @@ function archive() {
                         <div className="font-semibold text-white/60 text-xl">Year</div>
                         <div className="font-semibold text-white/60 text-xl ml-10 w-[300px] flex-1">Title</div>
                         <div className="font-semibold text-white/60 text-xl hidden md:block flex-1">Built with</div>
-                        <div className="flex justify-start items-end font-semibold text-white/60 text-xl text-left">Link</div>
+                        <div className="flex justify-end items-end font-semibold text-white/60 text-xl text-left flex-1 ml-5">Link</div>
                     </li>
                     {noteable_projects.map((project) => (
                         <li key={project.id} className="flex justify-between items-center mt-4">
-                            <div className="font-light py-3 text-main">{project.year}</div>
-                            <div className="font-light py-3 flex-1 w-[300px] ml-10">{project.title}</div>
+                            <div className="font-semibold py-3 text-main">{project.year}</div>
+                            <div className="font-semibold py-3 flex-1 w-[300px] ml-10">{project.title}</div>
                             <div className="font-light py-3 space-x-2 hidden md:block flex-1 font-mono">{project.tags.map(tag => <span className="tags">{tag}</span>)}</div>
-                            <div className="flex justify-start items-start text-left space-x-2 flex-1">
+                            <div className="flex justify-end items-end text-left space-x-2 flex-1 ml-5">
                                 {
                                     project.github.length>10 
                                     ?
                                     <Link href={project.github}>
-                                        <a><AiFillGithub className="text-xl hover:text-main" /></a>
+                                        <a target="_blank"><AiFillGithub className="text-xl hover:text-main" /></a>
                                     </Link>
                                     :
                                     <span></span>
@@ -87,7 +87,7 @@ function archive() {
                                 {
                                     project.url.length>10?
                                     <Link href={project.url}>
-                                        <a><BiLinkExternal className="text-xl hover:text-main" /></a>
+                                        <a target="_blank"><BiLinkExternal className="text-xl hover:text-main" /></a>
                                     </Link>
                                     :
                                     <span></span>

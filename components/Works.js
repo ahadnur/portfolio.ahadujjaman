@@ -106,8 +106,28 @@ const Works = () => {
                                             <IoMdFolderOpen className="text-5xl" />
                                         </div>
                                         <div className="linkIcon flex space-x-3">
-                                            <BiLinkExternal className="text-2xl hover:text-main transition-all duration-300 cursor-pointer" />
-                                            <AiFillGithub className="text-2xl hover:text-main transition-all duration-300 cursor-pointer" />
+                                            {project.url.length>10 ? 
+                                                <Link href={project.url}>
+                                                    <a target="_blank">
+                                                        <BiLinkExternal className="text-2xl hover:text-main transition-all duration-300 cursor-pointer" />
+                                                    </a>
+                                                </Link>
+                                                :
+                                                <span></span>
+                                            }
+                                            {
+                                                project.github.length>10 ?
+                                                <Link href={project.github}>
+                                                    <a target="_blank">
+                                                        <AiFillGithub className="text-2xl hover:text-main transition-all duration-300 cursor-pointer" />
+                                                    </a>
+                                                </Link>
+                                                :
+                                                <span></span>
+
+                                            }
+                                            
+                                            
                                         </div>
                                     </div>
                                     <div className="content">

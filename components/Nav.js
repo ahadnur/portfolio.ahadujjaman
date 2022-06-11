@@ -58,6 +58,9 @@ const Nav = () => {
                             <li className="px-5 py-2 border-[1px] border-main text-main rounded-md hover:bg-main/20 transition-all duration-300 cursor-pointer" onClick={closeMenu}>
                                 <Link href="/">Resume</Link>
                             </li>
+                            <li className="px-5 py-2 border-[1px] border-main text-main rounded-md hover:bg-main/20 transition-all duration-300 cursor-pointer" onClick={closeMenu}>
+                                <Link href="https://www.youtube.com/channel/UCen4h4v9NnDKEHzOvE93BIA">Youtube</Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
