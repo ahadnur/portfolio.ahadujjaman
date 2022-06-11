@@ -1,12 +1,16 @@
 import React from 'react'
 import Link from 'next/link'
 
-import {featured_projects} from '../constants/constants'
+import { AiFillGithub, AiOutlineFolder } from 'react-icons/ai'
+import { BiLinkExternal } from 'react-icons/bi'
+import {IoMdFolderOpen} from 'react-icons/io'
+
+import {featured_projects, noteable_projects} from '../constants/constants'
 
 const Works = () => {
     console.log(featured_projects)
   return (
-    <div id="works" className="mb-10">
+    <div id="works" className="mb-10 mt-20">
         <h2 className="font-mono text-main relative after:absolute after:top-1/2 after:-translate-y-1/2  after:h-[1px] after:w-40 after:bg-white/30 after:rounded-full text-md md:text-xl">02. <span className="text-white/90 text-2xl md:text-4xl font-bold after:ml-2">What I&apos;ve Built</span></h2>
 
         <div className="featuredProject my-20 space-y-20">
@@ -92,6 +96,44 @@ const Works = () => {
                 <Link href="/archive">
                     <a className="text-main font-mono">view the archive</a>
                 </Link>
+                <div className="mt-10 text-left grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-3">
+                    {noteable_projects.slice(0,6).map((project) =>(
+                        <div className="" key={project.id}>
+                            <div className="w-full h-[300px] rounded-sm bg-white/10 p-6 shadow-md hover:scale-1 flex flex-col justify-between">
+                                <div>
+                                    <div className="top flex justify-between ">
+                                        <div className="icon">
+                                            <IoMdFolderOpen className="text-5xl" />
+                                        </div>
+                                        <div className="linkIcon flex space-x-3">
+                                            <BiLinkExternal className="text-2xl hover:text-main transition-all duration-300 cursor-pointer" />
+                                            <AiFillGithub className="text-2xl hover:text-main transition-all duration-300 cursor-pointer" />
+                                        </div>
+                                    </div>
+                                    <div className="content">
+                                        <h3 className="mt-3 mb-2 text-2xl text-left font-bold">{project.title}</h3>
+                                        <p className="text-white/80">{project.description}</p>
+                                    </div>
+                                </div>
+                                <div className="bot">
+                                    <div className="tags">
+                                        <ul className="flex justify-start flex-nowrap space-x-2">
+                                            {project.tags.map((tag, index) => (
+                                                <li className="text-main font-light text-xs font-mono" key={index}>{tag}</li>
+                                            ))}
+                                        </ul>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+                    
+                </div>
+                <div className="seeMore mt-10">
+                    <Link href="/archive">
+                        <a className="py-3 px-5 border-[1px] border-main text-main rounded-md hover:bg-main/10 transition-all duration-300">See More</a>
+                    </Link>
+                </div>
             </div>
         </div>
     </div>

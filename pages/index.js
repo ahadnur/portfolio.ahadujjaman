@@ -72,6 +72,8 @@ export default function Home() {
                 <Hero />
                 <About />
                 <Works />
+                <Testimonial />
+                <Contact />
             </div>
             {/* End of container */}
 
