@@ -205,3 +205,70 @@ export const noteable_projects = [
 
     
 ]
+
+export const reviews = [
+    {
+        id: 1,
+        name: "kenlyle",
+        country: "Costa Rica",
+        stars: 5,
+        message: "Ahad worked really hard in the middle of the night to solve my problem, much appreciated. A very patient, kind, talented, and persistent guy.",
+        image: "/img/reviewImage/rev1.webp"
+    },
+    {
+        id: 2,
+        name: "dinagupta6915",
+        country: "Estonia",
+        stars: 5,
+        message: "If u have any problem in programming, web development and deployment , I would highly recommend him.",
+        image: "/img/reviewImage/user.png"
+    },
+    {
+        id: 3,
+        name: "javier",
+        country: "El Salvador",
+        stars: 4.3,
+        message: "I asked Nur to help me with a study guide for Javascript, and after my class with him I felt more comfortable with the programming language. Nur is a solid teacher!",
+        image: "/img/reviewImage/rev2.webp"
+    },
+    {
+        id: 4,
+        name: "shannonramirez3",
+        country: "United States",
+        stars: 5,
+        message: "Took me step by step on understanding what I needed to do to code my problems correctly and how to look at each problem. Very helpful in helping me understand JavaScript. Thank you.",
+        image: "/img/reviewImage/user.png"
+    },
+    { 
+        id: 5,
+        name: "jonnathanlucero",
+        country: "United States",
+        stars: 5,
+        message: "ahadnur44 was a very kind individual with a TON of knowledge throughout different platforms. Although I am currently learning JavaScript, he gave me some valuable info on other languages. He is also very patient and will help you get through what you need. Will be coming back for sure!",
+        image: '/img/reviewImage/rev3.webp'
+    },
+    {
+        id: 6,
+        name: "tuonanwang303",
+        country: "United Kingdom",
+        stars: 5,
+        message: "Fast, professional, and accurate. he is quick to understand what you need to solve and solve it in a very professional way. Would definitely continue working with him in the future.",
+        image: "/img/reviewImage/user.png"
+    },
+    {
+        id: 7,
+        name: "stankinbear",
+        country: "United States",
+        stars: 5,
+        message: "Nur is an amazing tutor. Very patient, informative and approachable. The amount of care and consideration he provides when he works with you is reassuring. Sharing one's talent by helping others obtain understanding is a gift. Thank you so much! I look forward to working and learning alongside you again and again and again my friend! Stay blessed and stay you!",
+        image: '/img/reviewImage/rev4.webp'
+    },
+    {
+        id: 8,
+        name: "pedros3290",
+        country: "United States",
+        stars: 5,
+        message: "Nur is an excellent teacher in Python. He understands the fundamentals and also the complexities. Nur is a versatile person who thinks quickly on his feet to develop solutions. I highly recommend Nur to anyone seeking a humble and effective coding teacher.",
+        image: '/img/reviewImage/user.png'
+    }
+]

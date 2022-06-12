@@ -74,6 +74,7 @@ export default function Home() {
                 <Works />
                 <Testimonial />
                 <Contact />
+                <Footer />
             </div>
             {/* End of container */}
 

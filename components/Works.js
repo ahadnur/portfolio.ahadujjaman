@@ -8,7 +8,6 @@ import {IoMdFolderOpen} from 'react-icons/io'
 import {featured_projects, noteable_projects} from '../constants/constants'
 
 const Works = () => {
-    console.log(featured_projects)
   return (
     <div id="works" className="mb-10 mt-20">
         <h2 className="font-mono text-main relative after:absolute after:top-1/2 after:-translate-y-1/2  after:h-[1px] after:w-40 after:bg-white/30 after:rounded-full text-md md:text-xl">02. <span className="text-white/90 text-2xl md:text-4xl font-bold after:ml-2">What I&apos;ve Built</span></h2>

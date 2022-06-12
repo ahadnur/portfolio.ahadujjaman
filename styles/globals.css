@@ -31,6 +31,26 @@ body {
     c3: #5F85DB
     c4: #90B8F8
 */
+.swiper-button-next:after{
+    color: #14FFEC;
+}
+.swiper-button-prev:after{
+    color: #14FFEC;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    top: 93% !important;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active.swiper-pagination-bullet-active-main{
+    background: #14FFEC;
+}
+
+
+
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
