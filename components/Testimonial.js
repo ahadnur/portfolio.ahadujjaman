@@ -48,7 +48,7 @@ const Testimonial = () => {
                                 
                             </div>
                             <div className="desc w-[400px] mt-10">
-                                <p className="p-3">{review.message}</p>
+                                <p className="p-3 text-white/60">{review.message}</p>
                             </div>
                         </div>
                     </SwiperSlide>
