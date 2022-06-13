@@ -2,6 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 
+
+
 import { BsArrowRightShort } from 'react-icons/bs'
 
 const About = () => {
@@ -58,7 +60,7 @@ const About = () => {
             </div>
 
             
-            <div className="relative h-[300px] w-[300px]">
+            <div className="relative h-[300px] w-[300px] animate__animated animate__fadeInRight">
                 <Image src="/img/ahadnur44.jpg" alt="Ahadujjaman Nur" width={300} height={300} className="rounded-md sepia hover:sepia-0  transition-all duration-3000 z-10" />
                 <div className="border-2 border-main h-full w-full absolute top-4 left-4 rounded-md"></div>
             </div>
