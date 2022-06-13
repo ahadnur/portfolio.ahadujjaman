@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import { SiPluscodes } from 'react-icons/si'
-import { AiFillEdit, AiFillGithub, AiOutlineTwitter, AiFillLinkedin, AiFillFacebook,  } from 'react-icons/ai'
+import { AiFillEdit, AiFillGithub, AiOutlineTwitter, AiFillLinkedin, AiFillFacebook, AiFillYoutube } from 'react-icons/ai'
 import { FaTelegramPlane } from 'react-icons/fa'
 
 import Nav from '../components/Nav'
@@ -30,29 +30,34 @@ export default function Home() {
             <div className="hidden lg:block md:fixed bottom-10 right-10">
                <div className="socialIcons">
                 <ul className="flex justify-center items-center flex-col space-y-5">
-                    <li className="cursor-pointer h-5 w-5">
+                    <li className="cursor-pointer h-8 w-8">
+                        <Link href="https://www.youtube.com/channel/UCen4h4v9NnDKEHzOvE93BIA">
+                            <a target="_blank"><AiFillYoutube className="h-full w-full text-white/60 hover:text-main transition-all duration-300 hover:animate-ping" /></a>
+                        </Link>
+                    </li>
+                    <li className="cursor-pointer h-8 w-8">
                         <Link href="https://www.github.com/ahadnur">
-                            <a>
+                            <a target="_blank">
                             <AiFillGithub className="h-full w-full text-white/60 hover:text-main transition-all duration-300 hover:animate-ping" />    
                             </a>
                         </Link>
                     </li>
-                    <li className="cursor-pointer h-5 w-5">
+                    <li className="cursor-pointer h-8 w-8">
                         <Link href="https://www.facebook.com/ahadnur44">
-                            <a><AiFillFacebook className="h-full w-full text-white/60 hover:text-main transition-all duration-300 hover:animate-ping" /></a>
+                            <a target="_blank"><AiFillFacebook className="h-full w-full text-white/60 hover:text-main transition-all duration-300 hover:animate-ping" /></a>
                         </Link>
                     </li>
-                    <li className="cursor-pointer h-5 w-5">
+                    <li className="cursor-pointer h-8 w-8">
                         <Link href="https://www.twitter.com/ahadnur44">
-                            <a><AiOutlineTwitter className="h-full w-full text-white/60 hover:text-main transition-all duration-300 hover:animate-ping" /></a>
+                            <a target="_blank"><AiOutlineTwitter className="h-full w-full text-white/60 hover:text-main transition-all duration-300 hover:animate-ping" /></a>
                         </Link>
                     </li>
-                    <li className="cursor-pointer h-5 w-5">
+                    <li className="cursor-pointer h-8 w-8">
                         <Link href="https://t.me/ahadnur44">
-                            <a><FaTelegramPlane className="h-full w-full text-white/60 hover:text-main transition-all duration-300 hover:animate-ping" /></a>
+                            <a target="_blank"><FaTelegramPlane className="h-full w-full text-white/60 hover:text-main transition-all duration-300 hover:animate-ping" /></a>
                         </Link>
                     </li>
-                    <li className="cursor-pointer h-5 w-5">
+                    <li className="cursor-pointer h-8 w-8">
                         <Link href="https://www.linkedin.com/in/ahadnur44/">
                             <a><AiFillLinkedin className="h-full w-full text-white/60 hover:text-main transition-all duration-300 hover:animate-ping" /></a>
                         </Link>

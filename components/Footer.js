@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-import { AiFillEdit, AiFillGithub, AiOutlineTwitter, AiFillLinkedin, AiFillFacebook,  } from 'react-icons/ai'
+import { AiFillEdit, AiFillGithub, AiOutlineTwitter, AiFillLinkedin, AiFillFacebook, AiFillYoutube } from 'react-icons/ai'
 import { FaTelegramPlane } from 'react-icons/fa'
 
 
@@ -33,6 +33,11 @@ const Footer = () => {
                 <li className="cursor-pointer h-5 w-5">
                     <Link href="https://www.linkedin.com/in/ahadnur44/">
                         <a target="_blank"><AiFillLinkedin className="h-full w-full text-white/60 hover:text-main transition-all duration-300 hover:animate-ping" /></a>
+                    </Link>
+                </li>
+                <li className="cursor-pointer h-5 w-5">
+                    <Link href="https://www.youtube.com/channel/UCen4h4v9NnDKEHzOvE93BIA">
+                        <a target="_blank"><AiFillYoutube className="h-full w-full text-white/60 hover:text-main transition-all duration-300 hover:animate-ping" /></a>
                     </Link>
                 </li>
             </ul>
