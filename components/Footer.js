@@ -43,6 +43,12 @@ const Footer = () => {
             </ul>
         </div>
         <p className="text-center text-white/40">Developed by Ahadujjaman Nur</p>
+        <Link href="https://www.buymeacoffee.com/psycoder44s">
+            <a target="_blank">
+                <img src="/img/yellow-button.png" alt="Buy Me A Coffee" className='w-32 mx-auto mt-2' />
+            </a>
+        </Link>
+        
     </div>
   )
 }
