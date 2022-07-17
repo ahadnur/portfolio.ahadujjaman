@@ -4,6 +4,8 @@ import Link from 'next/link'
 import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin, AiFillFacebook, AiFillYoutube } from 'react-icons/ai'
 import { FaTelegramPlane } from 'react-icons/fa'
 
+import SEO from '@bradgarropy/next-seo'
+
 import Nav from '../components/Nav'
 import Hero from '../components/Hero'
 import About from '../components/About'

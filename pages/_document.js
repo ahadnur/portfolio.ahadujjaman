@@ -1,6 +1,6 @@
 // pages/_document.js
 import { Html, Head, Main, NextScript } from 'next/document'
-import SEO from '@bradgarropy/next-seo'
+
 
 export default function Document() {
   return (
