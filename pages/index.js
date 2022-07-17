@@ -17,9 +17,12 @@ export default function Home() {
   return (
     <>
         <Head>
-            <title>Ahadujjamn Nur</title>
-            <meta name="description" content="Ahadujjaman Nur | Freelance Web developer | Programming Coach" />
             <link rel="icon" href="/favicon.png" />
+            <SEO
+              title="Ahadujjaman Nur | Web Designer | Developer | Programming Coach"
+              description="It's Ahadujjaman Nur a professional Freelance Web Designer and Developer. I offer services in Web Design, Web Development, and Programming. I also offer coaching in HTML, CSS, TailwindCss JavaScript, Python, React, Nextjs. I also offer consulting services in Web Design, Web Development, and Programming with Python."
+              keywords={['Website', 'Web development', 'Web design', 'Html', 'CSS', 'Javascript', 'TailwindCss', 'React', 'Nextjs', 'UI/UX', 'Frontend Development', 'Web Service', 'Coaching', 'Teaching', 'Assignment', 'tests']}
+            />
         </Head>
 
         <Nav />
