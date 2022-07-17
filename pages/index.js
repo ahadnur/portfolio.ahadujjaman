@@ -1,9 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import Link from 'next/link'
 
-import { SiPluscodes } from 'react-icons/si'
-import { AiFillEdit, AiFillGithub, AiOutlineTwitter, AiFillLinkedin, AiFillFacebook, AiFillYoutube } from 'react-icons/ai'
+import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin, AiFillFacebook, AiFillYoutube } from 'react-icons/ai'
 import { FaTelegramPlane } from 'react-icons/fa'
 
 import Nav from '../components/Nav'

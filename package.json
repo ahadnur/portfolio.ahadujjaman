@@ -11,6 +11,7 @@
   "dependencies": {
     "aos": "^3.0.0-beta.6",
     "framer-motion": "^6.3.11",
+    "lottie-react": "^2.3.1",
     "next": "12.1.5",
     "react": "18.0.0",
     "react-dom": "18.0.0",

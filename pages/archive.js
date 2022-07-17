@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-import { AiFillEdit, AiFillGithub, AiOutlineTwitter, AiFillLinkedin, AiFillFacebook,  } from 'react-icons/ai'
+import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin, AiFillFacebook,  } from 'react-icons/ai'
 import { FaTelegramPlane } from 'react-icons/fa'
 import { BiLinkExternal } from 'react-icons/bi'
 

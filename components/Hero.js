@@ -1,13 +1,15 @@
 import React from 'react'
 import Link from 'next/link'
 import { motion } from "framer-motion"
+import Lottie from 'lottie-react'
+import animation from '../constants/animation2.json'
 
 
 const Hero = () => {
 
   return (
-    <div className="w-full h-screen flex items-center">
-        <div className="content">
+    <div className="w-full h-screen flex items-center relative">
+        <div className="content z-10">
             <span className="text-main font-mono md:text-base">Hi, my name is</span>
             <motion.div className="mt-5" initial={{opacity:0}} whileInView={{opacity:1}} viewport={{once: true}}>
                 <h1 className="text-4xl font-bold text-white/90 sm:text-5xl md:text-6xl lg:text-[80px]">Ahadujjaman Nur.</h1>
@@ -19,6 +21,9 @@ const Hero = () => {
                     <a target="_blank">Check out my Youtube Channel</a>
                 </Link>
             </button>
+        </div>
+        <div className="anim w-full md:w-3/4 absolute top-1/2 -translate-y-1/2 left-1/2 md:right-0">
+          <Lottie animationData={animation} loop={true} />
         </div>
     </div>
   )
