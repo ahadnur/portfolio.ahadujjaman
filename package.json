@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@bradgarropy/next-seo": "^1.2.0",
     "aos": "^3.0.0-beta.6",
     "framer-motion": "^6.3.11",
     "lottie-react": "^2.3.1",
