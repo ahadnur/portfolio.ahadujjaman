@@ -22,7 +22,7 @@ const Hero = () => {
                 </Link>
             </button>
         </div>
-        <div className="anim w-full md:w-3/4 absolute top-1/2 -translate-y-1/2 left-1/2 md:right-0">
+        <div className="anim 2xl:w-4/5  absolute top-1/2 -translate-y-1/2 left-1/2 md:right-0">
           <Lottie animationData={animation} loop={true} />
         </div>
     </div>
